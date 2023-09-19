@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas=1.2.3
-  - pip=20.3.3
-  - pytest=6.2.2
-  - scipy=1.6.1
+  - conda-forge::python=3.8
+  - conda-forge::pandas
+  - conda-forge::pip=20.3.3
+  - conda-forge::pytest=6.2.2
+  - conda-forge::scipy=1.6.1
   - pip:
-      - wandb==0.10.21
+      - wandb==0.12.17
