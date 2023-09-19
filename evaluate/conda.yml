@@ -3,13 +3,14 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - conda-forge::python=3.8
-  - conda-forge::pandas
-  - conda-forge::pip=20.3.3
-  - conda-forge::scikit-learn=0.24.1
-  - conda-forge::matplotlib
-  - conda-forge::plotly
-  - conda-forge::pillow
-  - conda-forge::mlflow=2.2.2
+  - python=3.8
+  - pandas
+  - pip=23.2.1
+  - scikit-learn=0.24.1
+  - matplotlib
+  - plotly
+  - pillow
+  - mlflow=2.2.2
   - pip:
       - wandb==0.12.17
+      - omegaconf
