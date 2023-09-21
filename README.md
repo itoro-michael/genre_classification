@@ -16,6 +16,12 @@ model complexity.
 wandb login
 ```
 
+* To run the release
+```
+mlflow run [github URL] -v [version] -P ...
+
+```
+
 * To create project on wandb, execute the command:
 ```
 mlflow run . -P hydra_options="main.project_name='genre_classification_prod'"
